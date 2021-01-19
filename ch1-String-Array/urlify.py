@@ -9,6 +9,9 @@ import unittest
 
 
 def urlify_algorithmic(string, truelength):
+    """
+    Replace all spaces in a string with `%20`
+    """
     char_list = list(string)
     string = ""
     new_index = len(char_list)
